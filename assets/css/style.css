@@ -12,11 +12,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     list-style: none;
 
 }
+header{
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4%;
+}
 .categorias{
-    width: 100%;
     display:flex;
     flex-wrap: wrap;
     gap: 5%;
+}
