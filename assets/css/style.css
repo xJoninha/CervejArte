@@ -17,13 +17,16 @@
 
 }
 header{
+    width: 100%;
     background-color: var(--primary-color);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 4%;
+    padding: 5%;
+    align-items: center;
+
 }
 .categorias{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    gap: 5%;
+    justify-content: space-between;
+    align-items: center;
+
 }
