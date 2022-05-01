@@ -56,10 +56,6 @@ body {
   height: 100%;
 }
 
-    width: 20%;
-    height: 100%;
-}
-
 footer {
     width: 100%;
     background-color: var(--primary-color);
