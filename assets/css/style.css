@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #e8c00e;
+  --primary-color: #E8C00E;
   --secondary-color: #e08422;
   --tertiary-color: #e0842233;
   --light-color: #fff;
@@ -11,30 +11,52 @@
 * {
   margin: 0;
   padding: 0;
-  border: solid 1px green;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
   font-family: "Ubuntu", sans-serif;
 }
-header {
-  width: 100%;
-  background-color: var(--primary-color);
-  padding: 5%;
-}
-
 body {
   height: 100vh;
   
 }
-
-.categorias {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+header {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 2%;
+  margin: 0 auto;
+  
+}
+header h1{
+  font-size: var(--font-size-lg);
 }
 
+header nav{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+#busca{
+  margin-right:20%
+}
+.icons-nav{
+  display:flex;
+}
+.icons-nav li a{
+  padding:10px;
+}
+.categorias{
+  margin:5px 0px 5px 0px;
+  background-color: var(--primary-color);
+  padding-left: 2%;
+}
+.categorias ul{
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 5%;
+}
 .destaques {
   width: 100%;
   height: 40%;
