@@ -11,30 +11,33 @@
 * {
   margin: 0;
   padding: 0;
-  border: solid 1px green;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
   font-family: "Ubuntu", sans-serif;
 }
-header {
-  width: 100%;
-  background-color: var(--primary-color);
-  padding: 2%;
-}
-
 body {
   height: 100vh;
   
 }
+header {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 2%;
+  margin: 0 auto;
+  
+}
+header h1{
+  font-size: var(--font-size-lg);
+}
+
 header nav{
   display:flex;
-  justify-content:  space-around;
+  justify-content:space-between;
   align-items: center;
 
 }
 #busca{
-  order: 0;
   margin-right:20%
 }
 .icons-nav{
@@ -42,6 +45,17 @@ header nav{
 }
 .icons-nav li a{
   padding:10px;
+}
+.categorias{
+  margin:5px 0px 5px 0px;
+  background-color: var(--primary-color);
+  padding-left: 2%;
+}
+.categorias ul{
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 5%;
 }
 .destaques {
   width: 100%;
