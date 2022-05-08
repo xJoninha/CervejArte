@@ -108,9 +108,43 @@ footer {
     justify-content: flex-end;
 }
 
+#FormasDePagamento {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.iconesFormasDePagamento {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ 
+}
+
 .iconesRedesSociais {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
 }
 
+#atalhosFooter {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+#listafooter {
+flex-direction: row;
+}
+
+.rodape{
+  text-align: center;
+}
+
+#alinharFooter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
