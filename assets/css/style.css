@@ -16,47 +16,94 @@
   list-style: none;
   font-family: "Ubuntu", sans-serif;
 }
+
 body {
-  height: 100vh;
-  
+  /* height: 100vh; */
 }
+
 header {
-  width: 100%;
+  width: 1170px;
   background-color: var(--primary-color);
   padding: 2%;
-  margin: 0 auto;
-  
+  margin: 5px auto;
 }
+
 header h1{
+  width: 200px;
+  height: 80px;
   font-size: var(--font-size-lg);
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav{
-  display:flex;
-  justify-content:space-between;
-  align-items: center;
+  display: flex;
+  /* justify-content:space-between;
+  align-items: center; */
+}
 
+.search-box{
+  position: absolute;
+  left: 70px;
+  top: 20px;
+  font-weight: bold;
+  width: 580px;
+  height: 40px;
+  border: 4px solid var(--secondary-color);
+  background: #FFFFFF;
+  opacity: 0.5;
 }
+
+.search-box-button {
+  position: absolute;
+  top: 27px;
+  right: -140px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 #busca{
-  margin-right:20%
+  width: 500px;
+  position: absolute;
+  left: 300px;
+  /* margin-right:20% */
 }
+
 .icons-nav{
-  display:flex;
+  display: flex;
+  position: absolute;
+  right: 150px;
+  top: 55px;
 }
+
 .icons-nav li a{
   padding:10px;
 }
 .categorias{
-  margin:5px 0px 5px 0px;
+  width: 1170px;
+  height: 36px;
+  margin: 0px auto;
   background-color: var(--primary-color);
-  padding-left: 2%;
+  padding-left: 10px;
 }
+
 .categorias ul{
   display:flex;
   justify-content:flex-start;
   align-items: center;
-  gap: 5%;
+  gap: 1%;
 }
+
+.categorias li{
+  padding: 10px;
+  font-weight: bold;
+}
+
 .destaques {
   width: 100%;
   height: 40%;
@@ -78,15 +125,50 @@ header nav{
   height: 100%;
 }
 
-footer {
-    width: 100%;
-    background-color: var(--primary-color);
-    padding: 5%;
-    padding-bottom: 0%;
+.footer {
+  width: 1170px;
+  height: 200px;
+  background-color: var(--primary-color);
+  padding: 5px;
+  padding-bottom: 0%;
+  margin: 5px auto;
 }
 
-.rodape {
-    background-color: var(--secondary-color);
+.footer h5 {
+  font-size: 25px;
+}
+
+.payment-methods {
+  margin: 10px 0 0;
+  display: flex;
+  gap: 1%;
+}
+
+#atalhosFooter ul{
+  display: flex;
+  justify-content: center;
+}
+
+#atalhosFooter li {
+  padding: 0px 5px;
+}
+
+#atalhosFooter a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.direitos-reservados {
+  width: 1170px;
+  height: 42px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
