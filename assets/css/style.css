@@ -11,15 +11,24 @@
 * {
   margin: 0;
   padding: 0;
+  /* border: solid 1px red; */
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
   font-family: "Ubuntu", sans-serif;
+  color: #000;
 }
 body {
-  height: 100vh;
+  height: 150vh;
   
 }
+
+main {
+  padding: 15px;
+  height: 90%;
+  width: 100%;
+}
+
 header {
   width: 100%;
   background-color: var(--primary-color);
@@ -58,24 +67,43 @@ header nav{
   gap: 5%;
 }
 .destaques {
+  position: relative;
   width: 100%;
-  height: 40%;
+  height: 80%;
   display: flex;
   justify-content: center;
 }
 
 .destaques_lista {
-  width: 80%;
+  position: relative;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items:flex-start;
   justify-content: space-around;
 }
 
 .destaques_lista_elemento {
+  border: solid 2px gray;
+  margin: 5px 5px 30px;
+  position: relative;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+  
+  height: 50%;
+  width: 300px;
+}
 
-  width: 20%;
-  height: 100%;
+.destaques_lista_elemento_imagem {
+  position: relative;
+ width: 230px;
+ height: 230px;
+ max-height: 100%;
 }
 
 footer {
