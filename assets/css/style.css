@@ -157,6 +157,14 @@ li {
   text-decoration: none;
   color:#000
 }
+.glider-contain{
+    width:1200px;
+}
+.carrossel{
+  display:flex;
+  width: 700px;
+  height: 300px;
+}
 
 .destaques {
   position: relative;
