@@ -1,0 +1,21 @@
+{
+  "name": "cervejarte",
+  "version": "1.0.0",
+  "description": "- FONT FAMILY = UBUNTU PARA O SITE TODO.\r  - CORES CRIADAS COM CLASSES, SEGUIREMOS O PADRÃO COM CLASSES.\r  - WIREFRAME PRONTO,  E DIVISÃO: 2 PESSOAS NAV BAR(Daniel e isabella), 2 PESSOAS FOOTER(Bianca e vinicius), 2 PESSOAS PARA DISPLAY FLEX NO BODY(Jonas e Davi).\r  - FALTA FONT TITULO.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev":"nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artiscruelty/CervejArte.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artiscruelty/CervejArte/issues"
+  },
+  "homepage": "https://github.com/artiscruelty/CervejArte#readme"
+}
