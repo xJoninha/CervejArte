@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="glider.min.css">
   <script src="https://kit.fontawesome.com/fe2b458acb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet" />
@@ -44,28 +45,38 @@
       <li><a href="#">ARTESANAL</a></li>
     </ul>
   </div>
-  <div class="glider-contain">
-        
-        <button class="glider-prev">
-            teste
-        </button>
-        <div class="glider carrossel">
-            <img src="./assets/src/cards/slider-brama.jpg">
-            <img src="./assets/src/Cards/cerveja-antartica-lata.jpg">
-            <img src="./assets/src/Cards/cerveja-antartica-lata.jpg">
-            <img src="./assets/src/Cards/cerveja-antartica-lata.jpg">
+
+  <div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/src/Cards/slider-brama.jpg" class="d-block w-100" alt="...">
         </div>
-        <button class="glider-next">
-            teste
-        </button>
-
-        <div id="dots" class="glider-dots"></div>
+        <div class="carousel-item">
+          <img src="./assets/src/Cards/slider-brama.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/src/Cards/slider-brama.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-
-    
-
-
   </div>
+ 
+
+
   <div class="flexbox-itens">ABAIXO 3 CATEGORIAS DE MAIS VENDIDO/PROMO/LANCAMENTO</div>
   <main>
     <div class="destaques">
@@ -252,8 +263,8 @@
     </div>
   </footer>
 
-  <script src="glider.min.js"></script>
-  <script src="carrossel.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 
 </html>
