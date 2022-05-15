@@ -149,6 +149,95 @@ h1{
  max-height: 100%;
 }
 
+.promocao-vip-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.seja-vip {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.seja-vip h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.05cm;
+  padding-bottom: 30px;
+}
+
+.conteudo-seja-vip {
+  background-color: var(--primary-color);
+  width: 558px;
+  height: 345px;
+  padding-top: 30px;   
+}
+
+.conteudo-seja-vip h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.05cm;
+}
+
+.ul-li-seja-vip {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.conteudo-seja-vip li {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.saiba-mais-vip {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.conteudo-seja-vip a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.div.botao-vip {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.botao-assinar-vip {
+  border-radius: 8px;
+  background: var(--secondary-color);
+  color: var(--dark-color);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  border: 0px;
+  box-shadow: 0 4px 0 rgba (0 0 0 0);
+  padding: 10px 60px 10px 60px;
+  padding-top: 10px;    
+}
+
+.botao-assinar-vip:hover {
+  box-shadow: 0px 0px 12px #e08422;
+}
+
 footer {
   background-color: var(--primary-color);
   color: var(--dark-color);
@@ -160,6 +249,7 @@ footer {
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 30px;
 }
 
 .central-de-atendimento {
