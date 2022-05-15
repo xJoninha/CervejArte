@@ -1,0 +1,219 @@
+:root {
+  --primary-color: #e8c00e;
+  --secondary-color: #e08422;
+  --tertiary-color: #e0842233;
+  --light-color: #fff;
+  --dark-color: #000;
+  --font-size-sm: 1.5rem;
+  --font-size-lg: 2.4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+}
+
+header {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 2%;
+  margin: 0 auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  font-size: var(--font-size-lg);
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+}
+.flex-nav {
+  justify-content: flex-end;
+}
+.search-box {
+  width: 70%;
+  border: 4px solid var(--secondary-color);
+  background: #ffffff;
+  opacity: 0.5;
+}
+.input-nav {
+  font-weight: bold;
+}
+.box-button {
+  color: rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box-button:hover {
+  color: var(--primary-color);
+}
+
+.categorias {
+  margin: 5px auto;
+  background-color: var(--primary-color);
+  padding-left: 5px;
+}
+.categorias button {
+  background-color: transparent;
+  color: #000;
+  border: none;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.categorias ul {
+  align-items: center;
+  gap: 1%;
+}
+
+.categorias li {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.categorias li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.flex-produto{
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+}
+.flex-produtos-corpo{
+    background-color: var(--primary-color) !important;
+    
+}
+.cor-detalhes{
+    padding:20px;
+    border: 2px solid var(--secondary-color);
+}
+.produtos-descricao{
+    align-items: center;
+    font-weight: bolder;
+}
+.produtos-descricao svg{
+    margin-right: 1%;
+}
+div .botoes-produtos{
+    background-color: var(--primary-color);
+}
+.botoes-produtos button{
+    background-color: var(--secondary-color);
+    border: 1px solid black
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: var(--primary-color);
+  padding: 5px;
+  padding-bottom: 0%;
+  margin: 0px auto;
+}
+
+footer h5 {
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+}
+
+.payment-methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+#atalhosFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#atalhosFooter ul {
+  display: flex;
+  justify-content: center;
+}
+
+#atalhosFooter li {
+  padding: 0px 5px;
+}
+
+#atalhosFooter a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.direitos-reservados {
+  width: 1170px;
+  height: 42px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.centralDeAtendimento {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.redesSociais {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.iconesFormasDePagamento {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.iconesRedesSociais {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+#atalhosFooter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#listafooter {
+  flex-direction: row;
+}
+
+.rodape {
+  text-align: center;
+}
+
+#alinharFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
