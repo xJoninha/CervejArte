@@ -166,6 +166,29 @@ li {
   height: 300px;
 }
 
+.maisVendidos{
+  margin-top: 2%;
+  margin-bottom: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiperBoxMeu{
+  margin-top: 2%;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  display:flex;
+  align-content: center;
+  width: 700px;
+  height: 300px;
+}
+
+.swiper-slide{
+background-color: #E8C00E;
+}
+
 .destaques {
   position: relative;
   width: 100%;
