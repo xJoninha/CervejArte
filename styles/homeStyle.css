@@ -187,6 +187,15 @@ flex-direction: row;
   margin-top: 3px;
 }
 
+.card-principal {
+  object-fit: cover;
+  height: 85%;
+}
+
+.card-bg {
+  background-color: var(--primary-color) !important;
+}
+
 .flexbox-itens{
   display: grid;
   place-items: center;
