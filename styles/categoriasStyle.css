@@ -20,6 +20,7 @@
 
 }
 
+
 header {
   width: 100%;
   background-color: var(--primary-color);
@@ -117,6 +118,7 @@ div .botoes-produtos{
     background-color: var(--secondary-color);
     border: 1px solid black
 }
+
 
 footer {
   width: 100%;

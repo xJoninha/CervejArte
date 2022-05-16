@@ -112,6 +112,12 @@ h1{
   display: flex;
   justify-content: center;
 }
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: 10% 0 ;
+}
 
 .flexbox-itens{
   display: grid;
