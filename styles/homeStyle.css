@@ -117,10 +117,12 @@ h4 {
 
 .card-principal {
   object-fit: cover;
-  height: 75%;
+  height: 85%;
 }
 
-
+.card-bg {
+  background-color: var(--primary-color) !important;
+}
 
 .flexbox-itens{
   display: grid;
