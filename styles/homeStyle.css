@@ -115,6 +115,13 @@ h4 {
   margin: 10% 0 ;
 }
 
+.card-principal {
+  object-fit: cover;
+  height: 75%;
+}
+
+
+
 .flexbox-itens{
   display: grid;
   place-items: center;
