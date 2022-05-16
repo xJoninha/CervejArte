@@ -1,0 +1,48 @@
+.promocoes-container {
+    /* Modificações no container aqui */
+}
+
+.promocoes-carrocel-titulo {
+    margin-left: 215px;
+    font-size: 30px;
+}
+
+.promocoes-carrocel {
+    width: 558px;
+    height: 345px;
+    background-color: #e8c00e;
+}
+
+.promocoes-carrocel-lista{
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.espacamento {
+    padding: 0px  7px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.promocoes-carrocel h4 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.promocoes-carrocel-card {
+    /* estilo do carrocel aqui */
+}
+
+.promocoes-carrocel-link {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 240px;
+}
