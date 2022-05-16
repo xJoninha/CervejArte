@@ -173,12 +173,18 @@ flex-direction: row;
 }
 
 .geladeira {
+  margin-top: 8px;
   width: 170px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .geladeira p {
-  font-size: 18px;
-  margin-top: 7px;
+  font-size: 16px;
+  margin-top: 3px;
 }
 
 .flexbox-itens{
