@@ -38,11 +38,16 @@
 
 .promocoes-carrocel-card {
     /* estilo do carrocel aqui */
+    width: 350px;
+    height: 217px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 7px;
 }
 
 .promocoes-carrocel-link {
     font-size: 20px;
     display: flex;
     justify-content: center;
-    margin-top: 240px;
+    margin-top: 20px;
 }
