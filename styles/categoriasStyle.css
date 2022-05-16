@@ -8,6 +8,7 @@
   --font-size-lg: 2.4rem;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -16,13 +17,16 @@
   list-style: none;
   font-family: "Ubuntu", sans-serif;
   color: #000;
+
 }
+
 
 header {
   width: 100%;
   background-color: var(--primary-color);
   padding: 2%;
   margin: 0 auto;
+  
 }
 
 h1 {
@@ -34,6 +38,7 @@ h1 {
   font-size: var(--font-size-lg);
   background-color: var(--secondary-color);
   border-radius: 4px;
+  
 }
 .flex-nav {
   justify-content: flex-end;
@@ -43,6 +48,7 @@ h1 {
   border: 4px solid var(--secondary-color);
   background: #ffffff;
   opacity: 0.5;
+  
 }
 .input-nav {
   font-weight: bold;
@@ -112,6 +118,7 @@ div .botoes-produtos{
     background-color: var(--secondary-color);
     border: 1px solid black
 }
+
 
 footer {
   width: 100%;
