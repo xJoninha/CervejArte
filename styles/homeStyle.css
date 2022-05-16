@@ -20,7 +20,6 @@
 }
 
 
-
 body {
   
   height: 150vh;
@@ -108,11 +107,84 @@ h1{
   display: flex;
   justify-content: center;
 }
-h4 {
+.frase_mais_vendidos {
   display: flex;
   justify-content: center;
   align-items:center;
-  margin: 10% 0 ;
+  margin: 5% 0 ;
+}
+
+.mais_vendidos {
+  margin-bottom: 5%;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 8px;
+  display: flex;
+}
+
+.card_superior {
+position: relative;
+height: 120px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
+.card_inferior {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.card-img-top {
+  height: 120px;
+}
+
+.card_descricao {
+  border: solid 1px var(--secondary-color);
+  width: 175px;
+  height: 120px;
+}
+
+.card_setas {
+  margin-top: 3px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  height: 40px;
+  width: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.card_setas p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.geladeira {
+  margin-top: 8px;
+  width: 170px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.geladeira p {
+  font-size: 16px;
+  margin-top: 3px;
 }
 
 .card-principal {
@@ -373,3 +445,13 @@ font-size:20px;
   padding-top: 8px;
 }
 
+@media screen and(min-width: 576px) {
+  .mais_vendidos {
+  margin-bottom: 5%;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  }
+}
