@@ -27,11 +27,7 @@ body {
   
 }
 
-main {
-  padding: 15px;
-  height: 60%;
-  width: 100%;
-}
+
 
 header {
   width: 100%;
@@ -278,10 +274,3 @@ font-size:20px;
   padding-top: 8px;
 }
 
-@media only screen and (min-width: 480px){
-
-}
-
-@media only screen and (min-width: 820px) {
-
-}
